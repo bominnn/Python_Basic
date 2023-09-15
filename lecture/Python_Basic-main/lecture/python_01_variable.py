@@ -59,7 +59,7 @@ str_float_d = "9.2"
 print(int(str_int_c))
 # 2) 문자열 정수형("9") -> 실수형(9.0)
 print(float(str_int_c))
-# 3) 문자열 실수형("3.14") -> 정수형
+# 3) 문자열 실수형("9.2") -> 정수형
 # print(int(str_float_d)) 에러발생
 # 4) 문자열 실수형("9.2") -> 실수형(9.2)
 print(float(str_float_d))
