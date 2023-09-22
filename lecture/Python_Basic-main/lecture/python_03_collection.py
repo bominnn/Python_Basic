@@ -106,7 +106,7 @@ print(type(e))
 
 a = 5
 b = 8
-# a, b = b, a
+
 
 
 #a랑 b랑 교환하는 코드 작성
@@ -124,10 +124,10 @@ print(b) #5
 # - {}사용
 # - 멤버함수 : union(), intersection(), difference() 등등
 
-#아래 다시
-# set_a = {1, 2, 3}
-# set_b = {1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5}
-# print = (set_b)
+
+set_a = {1, 2, 3}
+set_b = {1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5}
+print (set_b)
 
 # 중복값 제거 활용 방법
 a = ["A", "A", "B", "B", "C", "C", "D", "E"] #List type
